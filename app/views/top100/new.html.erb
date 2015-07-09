@@ -1,7 +1,6 @@
 <h2>Sign up</h2>
 
-<%= form_for(user, as: :users, url: top100_path) do |f| %>
-  <%= devise_error_messages! %>
+<%= form_for @user, as: :users, url: top100_index_path do |f| %>
 
   <div class="field">
     <%= f.label :email %><br />
@@ -13,4 +12,3 @@
   </div>
 <% end %>
 
-<%= render "devise/shared/links" %>
