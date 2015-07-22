@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'pry'
+gem 'screencap'
 gem 'omniauth-facebook'
 gem 'fastercsv'
 gem 'devise'
